@@ -1,0 +1,85 @@
+I"g<h2 id="about">About</h2>
+
+<div class="jumbotron">
+  <div class="row">
+    <div class="col-sm-4">
+      <p><img src="http://localhost:4000/images/headshot.jpg" width="100%" style="max-width:250px" /></p>
+    </div>
+    <div class="col-sm-8 col-xs-12">
+      <h3>Efstathia Soufleri</h3>
+      <h4><i>PhD Student at Purdue University</i></h4>
+      <p><a href="mailto:esoufler@purdue.edu" target="_blank"><i class="fa fa-envelope-square fa-3x"></i></a> 
+   <a href="http://localhost:4000/cv/cv.pdf" target="_blank"><i class="ai ai-cv-square ai-3x"></i></a> 
+   <a href="https://scholar.google.com/citations?hl=en&amp;tzom=-120&amp;user=OF-ZndQAAAAJ&amp;authuser=1" target="_blank"><i class="ai ai-google-scholar-square ai-3x"></i></a> 
+   <a href="https://github.com/Efstathia-Soufleri" target="_blank"><i class="fa fa-github-square fa-3x"></i></a> 
+   <a href="https://www.researchgate.net/profile/Efstathia-Soufleri" target="_blank"><i class="ai ai-researchgate-square ai-3x"></i></a> 
+   <a href="https://dblp.org/pid/241/5004.html" target="_blank"><i class="ai ai-dblp-square ai-3x"></i></a></p>
+
+      <ul style="overflow: hidden">
+  
+  
+  
+  <li> (currently) Ph.D. Electrical and Computer Engineering, Purdue University </li>
+  <li> (2017) M.S. Computer Science, University of Thessaly </li>
+  <li> (2016) B.S. Mathematics, University of Athens </li>
+  
+  
+  
+  
+  </ul>
+    </div>
+  </div>
+</div>
+
+<!-- 
+<div class="jumbotron">
+### Grants
+<ul>
+
+ <li> Example Grant Here </li>
+
+ <li> Example Grant Here </li>
+
+</ul>
+</div>
+ -->
+
+<div class="jumbotron">
+  <h3 id="awards">Awards</h3>
+  <ul>
+
+ <li> Gerondelis Foundation Award for academic excellence (2021) </li>
+
+ <li> Validictorian (2017) </li>
+
+ <li> Greek State Foundation (2012) </li>
+
+</ul>
+</div>
+
+<!-- 
+<div class="jumbotron">
+### Students and mentoring
+<ul>
+
+ <li> Student Here, Univesity Here (Ph.D., 2022) </li>
+
+ <li> Student Here, Univesity Here (Ph.D., 2021) </li>
+
+ <li> Student Here, Univesity Here (Ph.D., 2020) </li>
+
+ <li> Student Here, Univesity Here (M.S., 2020) </li>
+
+ <li> Student Here, Univesity Here (B.S., 2020) </li>
+
+</ul>
+</div>
+ -->
+
+<!-- <div class="jumbotron">
+  <h4>Sponsors</h4>
+  <div style='display:block; text-align:center; margin-left:auto; margin-right:auto;'>
+ <a href="https://www.nsf.gov/" target="_blank"><img src='http://localhost:4000/images/NSF.png' style='max-height: 80px; max-width: 200px; margin: 1%'/></a><a href="https://www.energy.gov/" target="_blank"><img src='http://localhost:4000/images/doe_logo.png' style='max-height: 80px; max-width: 200px; margin: 1%'/></a><a href="https://www.onr.navy.mil/" target="_blank"><img src='http://localhost:4000/images/onr_logo.png' style='max-height: 80px; max-width: 200px; margin: 1%'/></a><a href="https://www.nih.gov/" target="_blank"><img src='http://localhost:4000/images/NIH-logo.png' style='max-height: 80px; max-width: 200px; margin: 1%'/></a>
+  </div>
+</div> -->
+:ET
