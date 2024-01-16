@@ -3,7 +3,7 @@ title: "Publications"
 layout: gridlay
 sitemap: false
 permalink: /publications/
-# years: [2022, 2019, 2021]
+years: [2022, 2019, 2021]
 ---
 
 <style>
