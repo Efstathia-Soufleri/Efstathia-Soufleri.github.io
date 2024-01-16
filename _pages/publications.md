@@ -17,15 +17,13 @@ years: [2022, 2019, 2021]
 </style>
 
 
-<!-- <div class="jumbotron">
+<div class="jumbotron">
 ### Refereed journal articles
 {% bibliography --query @article %}
-</div> --> -->
+</div>
 
 <div class="jumbotron">
 ### Refereed conference proceedings
-<!-- {% raw %} -->
 {% bibliography --query @inproceedings %}
-<!-- {% endraw %} -->
 </div>
 

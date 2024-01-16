@@ -1,1 +1,8 @@
-/_site
+tags
+_site/
+.sass-cache/
+.DS_Store
+Gemfile.lock
+package-lock.json
+node_modules/
+.rake_tasks~
