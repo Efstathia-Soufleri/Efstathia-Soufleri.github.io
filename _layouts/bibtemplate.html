@@ -22,10 +22,11 @@ pre{
 </style>
 
 
-<div class="text-justify">{{reference}}</div>
+<!-- <div class="text-justify">{{reference}}</div> -->
 
+<div class="text-justify">{{reference | replace_first: 'Soufleri, E.', '<b>Soufleri, E.</b>' | replace_first: 'Soufleri, E.', '<b>Soufleri, E.</b>' }}</div>
 <!-- You can use the below to make your name bold -->
-<!-- {{reference | replace_first: 'Bryngelson, S. H.', '<b>Bryngelson, S. H.</b>' | replace_first: 'Bryngelson, S.', '<b>Bryngelson, S.</b>' }}</div> -->
+<!-- {{reference | replace_first: 'Soufleri, E.', '<b>Soufleri, E.</b>' | replace_first: 'Soufleri, E.', '<b>Soufleri, E.</b>' }} -->
 
 {% assign bibtest = false %}
 {% if entry.file %}
@@ -49,9 +50,9 @@ pre{
 {% endif %}
 {% endif %}
 
-{% if entry.type == 'unpublished' or entry.type == 'article' or  entry.type == 'thesis' or entry.type == 'inproceedings' or entry.type == 'report' %}
+<!-- {% if entry.type == 'unpublished' or entry.type == 'article' or  entry.type == 'thesis' or entry.type == 'inproceedings' or entry.type == 'report' %}
 <button class="btn btn-danger btm-sm"  onclick="toggleBibtex{{entry.key}}()">BIB</button>
-{% endif %}
+{% endif %} -->
 
 {% if entry.abstract %}
 <button class="btn btn-warning btm-sm"  onclick="toggleAbstract{{entry.key}}()">ABSTRACT</button>

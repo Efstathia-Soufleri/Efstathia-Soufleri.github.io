@@ -34,8 +34,16 @@ iframe {
 
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
-<h4>Example Research</h4>
+<h4>Neural Network Compression</h4>
 
-Example description
+<!-- Neural Network Quantization with mixed-precision across the layers. -->
+</div>
+</div>
+
+<div class="jumbotron">
+<div class="col-md-12 col-sm-12">
+<h4>Privacy Preserving Machine Learning</h4>
+
+<!-- Neural Network Quantization with mixed-precision across the layers. -->
 </div>
 </div>
