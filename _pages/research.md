@@ -34,6 +34,14 @@ iframe {
 
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
+<h4>Computer Vision</h4>
+
+<div class="jumbotron">
+<div class="col-md-12 col-sm-12">
+<h4>Action Recognition</h4>
+
+<div class="jumbotron">
+<div class="col-md-12 col-sm-12">
 <h4>Neural Network Compression</h4>
 
 <!-- Neural Network Quantization with mixed-precision across the layers. -->
