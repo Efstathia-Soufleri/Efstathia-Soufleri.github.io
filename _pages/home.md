@@ -7,7 +7,7 @@ permalink: /
 
 ### Welcome!
 
-I am Efstathia, a Ph.D. candidate at Purdue Univeristy’s [Neuro(nano) Research Laboratory](https://engineering.purdue.edu/NRL) advised by Prof. Kaushik Roy.
+I am Efstathia, a Ph.D. candidate at Purdue Univeristy’s [Neuro(nano) Research Laboratory](https://engineering.purdue.edu/NRL) advised by [Prof. Kaushik Roy](https://engineering.purdue.edu/NRL/Group).
 
 <!-- <div class="container">
 <div class="row">
