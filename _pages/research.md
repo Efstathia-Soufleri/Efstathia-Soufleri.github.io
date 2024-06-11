@@ -36,9 +36,15 @@ iframe {
 <div class="col-md-12 col-sm-12">
 <h4>Computer Vision</h4>
 
+</div>
+</div>
+
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
 <h4>Action Recognition</h4>
+
+</div>
+</div>
 
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
