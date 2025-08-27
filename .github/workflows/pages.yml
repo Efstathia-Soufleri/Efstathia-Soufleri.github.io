@@ -15,15 +15,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      # Prepare the Pages deployment environment
       - uses: actions/configure-pages@v5
-      # Build the Jekyll site (uses your Gemfile)
-      - uses: actions/jekyll-build-pages@v1
+
+      # Use the gems from your Gemfile (jekyll 4 + jekyll-scholar)
+      - uses: ruby/setup-ruby@v1
         with:
-          source: .
-          destination: ./_site
-      # Upload the built site for deployment
-      - uses: actions/upload-pages-artifact@v3
+          ruby-version: '2.7'
+          bundler-cache: true
+
+      - name: Build site
+        run: JEKYLL_ENV=production bundle exec jekyll build --trace
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
           path: _site
 
