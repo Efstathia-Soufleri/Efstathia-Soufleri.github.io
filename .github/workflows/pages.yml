@@ -15,22 +15,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      # Configure Pages (sets up the deployment environment)
+      # Prepare the Pages deployment environment
       - uses: actions/configure-pages@v5
-
-      # Ruby + Bundler cache
-      - uses: ruby/setup-ruby@v1
+      # Build the Jekyll site (uses your Gemfile)
+      - uses: actions/jekyll-build-pages@v1
         with:
-          ruby-version: '2.7'
-          bundler-cache: true
-
-      # Build the site (your local build already works)
-      - name: Build site
-        run: JEKYLL_ENV=production bundle exec jekyll build --trace
-
-      # Upload the built _site/ as the artifact to deploy
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+          source: .
+          destination: ./_site
+      # Upload the built site for deployment
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
 
