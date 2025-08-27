@@ -34,3 +34,42 @@
   file={soufleri2021network.pdf},
   abstract={Deep Neural Networks (DNNs) are a powerful tool for solving complex tasks in many application domains. The high performance of DNNs demands significant computational resources, which might not always be available. Network quantization with mixed-precision across the layers can alleviate this high demand. However, determining layer-wise optimal bit-widths is non-trivial, as the search space is exponential. This article proposes a novel technique for allocating layer-wise bit-widths for a DNN using a multi-layer perceptron (MLP). The Kullback-Leibler (KL) divergence of the softmax outputs between the quantized and full precision network is used as the metric to quantify the quantization quality. We explore the relationship between the KL-divergence and the network size, and from our experiments observe that more aggressive quantization leads to higher divergence, and vice versa. The MLP is trained with layer-wise bit-widths as labels and their corresponding KL-divergence as the input. The MLP training set, i.e. the pairs of the layer-wise bit-widths and their corresponding KL-divergence, is collected using a Monte Carlo sampling of the exponential search space. We introduce a penalty term in the loss to ensure that the MLP learns to predict bit-widths resulting in the smallest network size. We show that the layer-wise bit-width predictions from the trained MLP result in reduced network size without degrading accuracy while achieving better or comparable results with SOTA work but with less computational overhead. Our method achieves up to 6x, 4x, 4x compression on VGG16, ResNet50, and GoogLeNet respectively, with no accuracy drop compared to the original full precision pretrained model, on the ImageNet dataset.}
 }
+
+@inproceedings{soufleri2025enhancing,
+  title={Enhancing Stress Detection on Social Media Through Multi-Modal Fusion of Text and Synthesized Visuals},
+  author={Soufleri, Efstathia and Ananiadou, Sophia},
+  booktitle={Proceedings of the 24th Workshop on Biomedical Language Processing},
+  pages={34--43},
+  year={2025}
+}
+
+@article{peng2025plutus,
+  title={Plutus: Benchmarking large language models in low-resource greek finance},
+  author={Peng, Xueqing and Papadopoulos, Triantafillos and Soufleri, Efstathia and Giannouris, Polydoros and Xiang, Ruoyu and Wang, Yan and Qian, Lingfei and Huang, Jimin and Xie, Qianqian and Ananiadou, Sophia},
+  journal={arXiv preprint arXiv:2502.18772},
+  year={2025}
+}
+
+@article{ravikumar2024curvature,
+  title={Curvature clues: Decoding deep learning privacy with input loss curvature},
+  author={Ravikumar, Deepak and Soufleri, Efstathia and Roy, Kaushik},
+  journal={Advances in Neural Information Processing Systems},
+  volume={37},
+  pages={20003--20030},
+  year={2024}
+}
+
+@inproceedings{ravikumar2024unveiling,
+  title={Unveiling privacy, memorization, and input curvature links},
+  author={Ravikumar, Deepak and Soufleri, Efstathia and Hashemi, Abolfazl and Roy, Kaushik},
+  booktitle={Proceedings of the 41st International Conference on Machine Learning},
+  pages={42192--42212},
+  year={2024}
+}
+
+@article{soufleri2024dp,
+  title={Dp-imgsyn: Dataset alignment for obfuscated, differentially private image synthesis},
+  author={Soufleri, Efstathia and Ravikumar, Deepak and Roy, Kaushik},
+  journal={Transactions on Machine Learning Research},
+  year={2024}
+}

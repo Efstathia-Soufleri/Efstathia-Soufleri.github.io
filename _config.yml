@@ -1,6 +1,6 @@
 # Site settings
 title: Efstathia Soufleri
-email: esoufler@purdue.edu
+email: esoufler@alumni.purdue.edu
 description: Academic webpage of Efstathia Soufleri
 baseurl: ""
 url: ""
@@ -11,19 +11,19 @@ url: ""
 # google_tag_manager: XXX
 
 # Footer info
-affiliation: >
-    Efstathia Soufleri<br/>
-    PhD Student at Electrical and Computer Engineering<br/>
-    Purdue University, USA
+# affiliation: >
+#     Efstathia Soufleri<br/>
+#     PhD Student at Electrical and Computer Engineering<br/>
+#     Purdue University, USA
 
-location: >
-  Electrical and Computer Engineering Building<br/>
-  Purdue University<br/>
-  501 Northwestern Ave.<br/>
-  West Lafayette, IN 47907, USA
+# location: >
+#   Electrical and Computer Engineering Building<br/>
+#   Purdue University<br/>
+#   501 Northwestern Ave.<br/>
+#   West Lafayette, IN 47907, USA
 
 contact: >
-    <a href="mailto:esoufler@purdue.edu" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Efstathia via email</a> <br/>
+    <a href="mailto:esoufler@alumni.purdue.edu" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Efstathia via email</a> <br/>
 
 # Pages shown in navbar
 nav_pages:
