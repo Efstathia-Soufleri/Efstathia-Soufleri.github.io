@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Research - Efstathia Soufleri</title>
+  <meta name="description" content="Academic webpage of Efstathia Soufleri">
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="/research/">
+  <link rel="shortcut icon" type ="image/x-icon" href="/favicon.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+  <link rel="preconnect" href="https://player.vimeo.com">
+  <link rel="preconnect" href="https://i.vimeocdn.com">
+  <link rel="preconnect" href="https://f.vimeocdn.com">
+
+
+
+<!-- Google Analytics (original) -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '');
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','');</script>
+<!-- End Google Tag Manager -->
+
+
+
+</head>
+
+
+  <body>
+
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id="
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand" href="/">
+     <img src="/favicon.ico" width="30" height="30" style="margin-right:5px" class="d-inline-block align-top" alt="">
+      Efstathia Soufleri
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor02">
+        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+          </li> 
+          
+           <li class="nav-item">
+            <a class="nav-link" href="/about">About</a>
+           </li> 
+          
+           <li class="nav-item">
+            <a class="nav-link" href="/publications">Publications</a>
+           </li> 
+          
+           <li class="nav-item">
+            <a class="nav-link" href="/research">Research</a>
+           </li> 
+          
+        </ul>
+  </div>
+</nav>
+
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <div id="gridid" class="col-sm-12 col-xs-12">
+  <h1 id="research">Research</h1>
+
+<h4 id="neural-network-compression">Neural Network Compression</h4>
+
+<p>In response to the growing demand for deploying deep learning models on resource-constrained devices, my research develops innovative quantization techniques to optimize deep neural networks without sacrificing performance. This work introduces a novel method that leverages a multi-layer perceptron to determine optimal layer-wise bit-widths, using the Kullback-Leibler divergence between quantized and full-precision outputs as a metric. By employing Monte Carlo sampling to navigate the exponential search space and incorporating a penalty term to minimize network size, the approach significantly reduces computational overhead. Demonstrated on architectures such as VGG16, ResNet50, and GoogLeNet, this method achieves up to 6x, 4x, and 4x compression respectively on the ImageNet dataset, maintaining accuracy while enhancing efficiency and paving the way for scalable, edge-deployable deep learning solutions.</p>
+
+<h4 id="exploring-loss-curvature-insights-into-neural-network-behavior-and-privacy">Exploring Loss Curvature: Insights into Neural Network Behavior and Privacy</h4>
+
+<p>My research delves into the interplay between loss curvature and model privacy in deep neural networks. By examining the trace of the Hessian of the loss with respect to the input—termed input loss curvature—I explore how this curvature varies between training and testing datasets and its implications for train-test distinguishability. Building on this analysis, I have developed a theoretical framework that establishes an upper bound on distinguishability in relation to privacy constraints and the training set size. This framework underpins a novel black-box membership inference attack that leverages input loss curvature, demonstrating superior effectiveness on large-scale datasets such as CIFAR10, CIFAR100, and ImageNet. My work not only deepens our understanding of network behavior but also informs the development of more robust privacy-preserving techniques in machine learning.</p>
+
+<h4 id="memorization-privacy-and-curvature-a-unified-view-of-deep-neural-networks">Memorization, Privacy, and Curvature: A Unified View of Deep Neural Networks</h4>
+<p>My research investigates the intrinsic connections between memorization, generalization, and privacy in deep neural networks. In particular, I examine how input loss curvature—defined as the trace of the loss Hessian with respect to the inputs—can serve as a practical and efficient proxy for measuring memorization. By developing a theoretical framework, I derive upper bounds on memorization that link differential privacy parameters with input loss curvature. This work not only provides new theoretical insights into the behavior of deep learning models but also demonstrates strong empirical correlations on datasets such as CIFAR and ImageNet, offering a unified view of how these networks balance memorization and privacy.</p>
+
+</div>
+
+      </div>
+    </div>
+
+    <br/>
+<section id="footer">
+<div class="container-footer">
+  <div class="panel-footer">
+	  <div class="row">
+		<div class="col-sm-4">
+		    <h5>About</h5>	
+            <p>Efstathia Soufleri<br/> Postdoctoral Researcher<br/> Machine Learning
+</p>
+		</div>
+
+		<div class="col-sm-4">
+		    <h5>Contact</h5>	
+            <p><a href="mailto:esoufler@alumni.purdue.edu" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Efstathia via email</a> <br/>
+</p>
+		</div>
+
+		<div class="col-sm-4">
+		    <h5>Coordinates</h5>	
+            <p></p>
+		</div>
+	  </div>
+
+      <center><p>&copy 2025 Efstathia Soufleri </p></center>
+	</div>
+  </div>
+</div>
+
+<script src="/assets/javascript/bootstrap/jquery.min.js"></script>
+<script src="/assets/javascript/bootstrap/bootstrap.bundle.min.js"></script>
+
+
+  </body>
+
+</html>
