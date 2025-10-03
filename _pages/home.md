@@ -7,7 +7,7 @@ permalink: /
 
 ### Welcome!
 
-I am Efstathia, a Postdoctoral Researcher at Archimedes - Athena Research Center, collaborating with Prof. Sophia Ananiadou. Prior to that, I obtained my Ph.D. from Purdue Univeristy’s Neuro(nano) Research Laboratory advised by Prof. Kaushik Roy.
+I am Efstathia, a Postdoctoral Researcher at Archimedes - Athena Research Center. Prior to that, I obtained my Ph.D. from Purdue Univeristy’s Neuro(nano) Research Laboratory advised by Prof. Kaushik Roy.
 
 <!-- <div class="container">
 <div class="row">
