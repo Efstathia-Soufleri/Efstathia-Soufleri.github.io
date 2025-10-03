@@ -7,7 +7,8 @@ permalink: /
 
 ### Welcome!
 
-I am Efstathia, a Postdoctoral Researcher at Archimedes - Athena Research Center. Prior to that, I obtained my Ph.D. from Purdue Univeristy’s Neuro(nano) Research Laboratory advised by Prof. Kaushik Roy.
+I am Efstathia Soufleri, a Postdoctoral Researcher at the Archimedes Unit of the Athena Research Center.  
+Before that, I earned my Ph.D. in Electrical and Computer Engineering at Purdue University’s Neuro(nano) Research Laboratory, advised by Prof. Kaushik Roy.
 
 <!-- <div class="container">
 <div class="row">
@@ -22,4 +23,6 @@ Feynman R., The theory of positrons. <i>Phys. Rev.</i> (1949)
 
 ### About me
 
-I am a Postdoctoral Researcher working in the field of Machine Learning. My research focuses on multimodal learning, efficient neural network deployment, computer vision and action recognition applications. I received my undergraduate degree in Mathematics from the National and Kapodistrian University of Athens (UoA) in 2016 with a specialization on Applied Mathematics. I received my Master’s degree in Computer Science from the University of Thessaly (UTh) in 2017. Next, I joined the Electrical and Computer Engineering Department of Purdue University as a PhD student under the guidance of Professor Kaushik Roy.
+My research lies at the intersection of **privacy preserving machine learning, multimodal learning, and efficient neural network deployment**, with applications in **computer vision** and **action recognition**.  
+
+I hold a **B.Sc. in Mathematics** (Applied Mathematics specialization, National and Kapodistrian University of Athens, 2016) and an **M.Sc. in Computer Science** (University of Thessaly, 2017). I then pursued my **Ph.D. at Purdue University**, focusing on efficient and privacy-preserving machine learning algorithms under the supervision of Prof. Kaushik Roy.
