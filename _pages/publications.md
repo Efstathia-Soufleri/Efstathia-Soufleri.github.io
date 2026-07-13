@@ -8,21 +8,21 @@ years: [ 2022, 2019, 2021]
 
 <style>
 .jumbotron{
-    padding:3%;
-    padding-bottom:10px;
-    padding-top:10px;
-    margin-top:10px;
-    margin-bottom:30px;
+padding:3%;
+padding-bottom:10px;
+padding-top:10px;
+margin-top:10px;
+margin-bottom:30px;
 }
 </style>
 
 
 <div class="jumbotron">
-### Refereed journal articles
-{% bibliography --query @article %}
+### Refereed conference proceedings
+{% bibliography --query @inproceedings %}
 </div>
 
 <div class="jumbotron">
-### Refereed conference proceedings
-{% bibliography --query @inproceedings %}
+### Refereed journal articles
+{% bibliography --query @article %}
 </div>

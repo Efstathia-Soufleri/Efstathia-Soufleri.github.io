@@ -84,8 +84,10 @@ scholar:
 
   query: "@*"
 
-  bibliography_list_attributes:
-    reversed: "reversed"
+  # bibliography_list_attributes:
+  #   reversed: "reversed"
+
+  bibliography_list_tag: ul
 
 exclude:
   - Gemfile
