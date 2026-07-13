@@ -23,6 +23,6 @@ Feynman R., The theory of positrons. <i>Phys. Rev.</i> (1949)
 
 ### About me
 
-My research lies at the intersection of **privacy preserving machine learning, multimodal learning, and efficient neural network deployment**, with applications in **computer vision** and **action recognition**.  
+My research centers on **trustworthy machine learning at scale**: understanding what and why models memorize, using that understanding to measure and defend against **privacy attacks** such as membership inference and data leakage, and building efficient, reliable evaluation pipelines for **vision and language models**.
 
 I hold a **B.Sc. in Mathematics** (Applied Mathematics specialization, National and Kapodistrian University of Athens, 2016) and an **M.Sc. in Computer Science** (University of Thessaly, 2017). I then pursued my **Ph.D. at Purdue University**, focusing on efficient and privacy-preserving machine learning algorithms under the supervision of Prof. Kaushik Roy.
