@@ -18,11 +18,16 @@ margin-bottom:30px;
 
 
 <div class="jumbotron">
-### Refereed conference proceedings
+### Conference proceedings
 {% bibliography --query @inproceedings %}
 </div>
 
 <div class="jumbotron">
-### Refereed journal articles
+### Journal articles
 {% bibliography --query @article %}
+</div>
+
+<div class="jumbotron">
+### Preprints
+{% bibliography --query @misc %}
 </div>
