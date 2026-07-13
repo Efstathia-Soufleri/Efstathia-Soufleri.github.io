@@ -1,0 +1,171 @@
+/* ============================================================
+   Custom theme layer for efstathia-soufleri.github.io
+   Loaded AFTER main.css (Bootstrap) — only refines, never
+   replaces the underlying framework, so the site's structure
+   and behavior stay exactly the same.
+   ============================================================ */
+
+:root {
+  --ink: #16202a;        /* deep navy-charcoal — navbar, footer */
+  --ink-soft: #23313d;   /* hover / secondary ink */
+  --paper: #fbfaf7;      /* warm off-white page background */
+  --card: #ffffff;       /* card background */
+  --accent: #2f6b6b;     /* muted teal — links, rules, highlights */
+  --accent-dark: #21504f;
+  --accent-soft: #e7f0ef;/* pale teal tint */
+  --text: #202830;
+  --muted: #5c6670;
+  --border: rgba(22, 32, 42, 0.08);
+}
+
+html, body {
+  background-color: var(--paper);
+  color: var(--text);
+}
+
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+.navbar-brand {
+  font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+  color: var(--ink);
+  letter-spacing: 0.01em;
+}
+
+/* Section headings get a short accent rule underneath — the one
+   consistent "signature" device used site-wide instead of decoration
+   sprinkled everywhere. */
+h1, h2, h3 {
+  position: relative;
+  padding-bottom: 0.4rem;
+  margin-bottom: 1.1rem;
+  font-weight: 600;
+}
+h1::after, h2::after, h3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 42px;
+  height: 3px;
+  background: var(--accent);
+  border-radius: 2px;
+}
+#gridid h1::after, #gridid h2::after, #gridid h3::after,
+#homeid h1::after, #homeid h2::after, #homeid h3::after,
+#textid h1::after, #textid h2::after, #textid h3::after {
+  content: "";
+}
+/* headings that sit inside cards/jumbotrons don't need the rule twice */
+.jumbotron h1::after, .jumbotron h2::after, .jumbotron h3::after {
+  bottom: -2px;
+}
+
+a {
+  color: var(--accent-dark);
+}
+a:hover {
+  color: var(--accent);
+}
+
+/* ---------- Navbar ---------- */
+.navbar.bg-dark {
+  background-color: var(--ink) !important;
+  border-bottom: 3px solid var(--accent);
+  padding-top: 0.65rem;
+  padding-bottom: 0.65rem;
+}
+.navbar-dark .navbar-brand {
+  color: #fdfdfc !important;
+  font-weight: 600;
+  font-size: 1.15rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.82) !important;
+  font-weight: 500;
+  padding-left: 0.9rem;
+  padding-right: 0.9rem;
+  transition: color 0.15s ease;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ffffff !important;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link[aria-current="page"] {
+  color: #ffffff !important;
+  border-bottom: 2px solid var(--accent);
+}
+
+/* ---------- Cards / "jumbotron" panels ---------- */
+.jumbotron {
+  background-color: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: 0 1px 2px rgba(22, 32, 42, 0.04);
+}
+
+/* ---------- Buttons ---------- */
+.btn {
+  border-radius: 6px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+.btn-success { background-color: var(--accent); border-color: var(--accent); }
+.btn-success:hover { background-color: var(--accent-dark); border-color: var(--accent-dark); }
+.btn-info { background-color: #4a7fa6; border-color: #4a7fa6; }
+.btn-warning { background-color: #c98a3e; border-color: #c98a3e; color: #fff; }
+.btn-warning:hover { color: #fff; opacity: 0.92; }
+.btn-danger { background-color: #b5495b; border-color: #b5495b; }
+
+/* ---------- Icon links (fa / ai social icons) ---------- */
+#homeid ~ #newsid .jumbotron a, .jumbotron a[target="_blank"] i.fa,
+.jumbotron a[target="_blank"] i.ai {
+  color: var(--ink);
+  transition: color 0.15s ease;
+}
+.jumbotron a[target="_blank"]:hover i.fa,
+.jumbotron a[target="_blank"]:hover i.ai {
+  color: var(--accent);
+}
+
+/* ---------- Footer ---------- */
+#footer .panel-footer {
+  background-color: var(--ink);
+  color: rgba(255, 255, 255, 0.85);
+  border-radius: 12px 12px 0 0;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+}
+#footer h5 {
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+#footer p, #footer a {
+  color: rgba(255, 255, 255, 0.78);
+}
+#footer a:hover { color: #ffffff; }
+
+/* ---------- News / empty states ---------- */
+.jumbotron:empty::after,
+.jumbotron:has(> *:only-child:empty)::after {
+  content: "";
+}
+
+/* ---------- Headshot ---------- */
+#newsid .jumbotron img,
+#gridid img {
+  border-radius: 10px;
+}
+
+/* ---------- Small screens ---------- */
+@media (max-width: 576px) {
+  .container-fluid { padding-left: 1.1rem; padding-right: 1.1rem; }
+}
