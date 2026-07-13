@@ -23,7 +23,7 @@ width:100%; overflow-x:auto;
 
 
 <div class="text-justify">
-{{ entry.author | replace: ' and ', ', ' | replace: 'Soufleri, Efstathia', '<b>Soufleri, Efstathia</b>' }}.
+{{ entry.author | replace: ' and ', ', ' }}.
 {{ entry.title }}.
 {% if entry.venue %}<b>{{ entry.venue }}</b>.{% elsif entry.booktitle %}<b>{{ entry.booktitle }} {{ entry.year }}</b>.{% else %}<b>{{ entry.journal }} {{ entry.year }}</b>.{% endif %}
 {% if entry.url %}<a href="{{ entry.url }}" target="_blank">(paper link)</a>{% endif %}
