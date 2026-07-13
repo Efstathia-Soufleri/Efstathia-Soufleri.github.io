@@ -23,6 +23,15 @@ Feynman R., The theory of positrons. <i>Phys. Rev.</i> (1949)
 
 ### About me
 
-My research centers on **trustworthy machine learning at scale**: understanding what and why models memorize, using that understanding to measure and defend against **privacy attacks** such as membership inference and data leakage, and building efficient, reliable evaluation pipelines for **vision and language models**.
+I work on making machine learning models more trustworthy — understanding what they memorize, whether that leaks private data, and how to evaluate them rigorously before deployment. My research spans theoretical work on **memorization and privacy attacks**, differentially private generative modeling, and **evaluation pipelines for large language models** in low-resource domains.
+
+**Research interests:** Trustworthy ML · Differential Privacy · Memorization · LLM Evaluation · Model Auditing
 
 I hold a **B.Sc. in Mathematics** (Applied Mathematics specialization, National and Kapodistrian University of Athens, 2016) and an **M.Sc. in Computer Science** (University of Thessaly, 2017). I then pursued my **Ph.D. at Purdue University**, focusing on efficient and privacy-preserving machine learning algorithms under the supervision of Prof. Kaushik Roy.
+
+### Selected work
+
+- **Curvature Clues: Decoding Deep Learning Privacy with Input Loss Curvature** — *NeurIPS 2024, Spotlight*
+- **Memorization Through the Lens of Sample Gradients** — *ICLR 2026*
+- **MultiFinBen: Benchmarking LLMs for Multilingual and Multimodal Financial Application** — *ACL 2026*
+- **DP-CARE: A Differentially Private Classifier for Mental Health Analysis** — *Frontiers in Digital Health, 2025 (mentee-led)*

@@ -1,6 +1,29 @@
-# - date: 20 September, 2020
-#   headline: "IEEE ACCESS accepted paper"
+- date: "24 April, 2026"
+  headline: "ICLR 2026 poster: \"Memorization Through the Lens of Sample Gradients\""
 
-# - date: 1 January, 1940
-#   headline: "Example news here"
+- date: "March, 2026"
+  headline: "WACV 2026 paper accepted: \"Learning Unified Spatio-temporal Representations for Efficient Compressed Video Understanding\""
 
+- date: "11 December, 2025"
+  headline: "DP-CARE published in Frontiers in Digital Health (led by mentee Dimitris Karpontinis)"
+
+- date: "4 November, 2025"
+  headline: "EMNLP 2025 paper: \"Plutus: Benchmarking Large Language Models in Low-Resource Greek Finance\""
+
+- date: "1 August, 2025"
+  headline: "BioNLP Workshop 2025 (ACL): \"Enhancing Stress Detection on Social Media Through Multi-Modal Fusion of Text and Synthesized Visuals\""
+
+- date: "June, 2025"
+  headline: "Invited talk at University of Manchester: \"Curvature, Privacy, and Synthetic Data: Towards More Trustworthy Deep Learning\""
+
+- date: "June, 2025"
+  headline: "CVPR Workshop (WiCV) 2025: \"Improved Out-of-Distribution Detection with Additive Angular Margin Loss\""
+
+- date: "December, 2024"
+  headline: "\"Curvature Clues: Decoding Deep Learning Privacy with Input Loss Curvature\" selected as a NeurIPS 2024 Spotlight"
+
+- date: "July, 2024"
+  headline: "ICML 2024 paper: \"Unveiling Privacy, Memorization, and Input Curvature Links\""
+
+- date: "September, 2024"
+  headline: "Started as Postdoctoral Researcher at Archimedes, Athena Research Center"

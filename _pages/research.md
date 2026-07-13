@@ -32,13 +32,13 @@ vertical-align: middle;
 
 ## Research
 
-My research centers on trustworthy machine learning at scale: understanding what and why models memorize, using that understanding to measure and defend against privacy attacks such as membership inference and data leakage, and building efficient, reliable evaluation pipelines for vision and language models.
+I work on making machine learning models more trustworthy — understanding what they memorize, whether that leaks private data, and how to evaluate them rigorously before deployment.
 
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
 <h4>Privacy, Memorization &amp; Trustworthy ML</h4>
 
-I study the connections between memorization, generalization, and privacy in deep neural networks, using input loss curvature as a lens for understanding how models behave differently on training versus unseen data. This work led to a black-box membership inference attack based on input loss curvature (NeurIPS 2024, Spotlight) and a follow-up study linking privacy, memorization, and curvature more formally (ICML 2024). More recently, this line of work has extended into fast, formal memorization estimation (ICML 2025) and sample-gradient-based memorization proxies (ICLR 2026), alongside out-of-distribution detection methods (CVPR 2025) — framing memorization as a general-purpose diagnostic tool for both privacy auditing and dataset quality. I also work on differentially private generative modeling: DP-ImgSyn releases synthetic images with formal DP guarantees while remaining visually dissimilar to the private data they're derived from, and DP-CARE (led by mentee Dimitris Karpontinis) applies differentially private fine-tuning to mental-health classification on social media text.
+I study the connections between memorization, generalization, and privacy in deep neural networks, using input loss curvature as a lens for understanding how models behave differently on training versus unseen data. This work led to a black-box membership inference attack based on input loss curvature (NeurIPS 2024, Spotlight) and a follow-up study formally linking privacy, memorization, and curvature (ICML 2024). More recently, this line of work has extended into fast, formal memorization estimation (ICML 2025) and sample-gradient-based memorization proxies (ICLR 2026), alongside out-of-distribution detection methods (CVPR 2025) — framing memorization as a general-purpose diagnostic tool for both privacy auditing and dataset quality. I also work on differentially private generative modeling: DP-ImgSyn releases synthetic images with formal DP guarantees while remaining visually dissimilar to the private data they're derived from, and DP-CARE (led by mentee Dimitris Karpontinis) applies differentially private fine-tuning to mental-health classification on social media text.
 </div>
 </div>
 
@@ -46,7 +46,7 @@ I study the connections between memorization, generalization, and privacy in dee
 <div class="col-md-12 col-sm-12">
 <h4>Scalable Evaluation for Large Language Models</h4>
 
-I build evaluation pipelines for large language models in low-resource domains such as finance and healthcare, including multilingual and multimodal benchmarking. This includes benchmarking LLMs on Greek-language financial tasks and contributing to multilingual, multimodal financial benchmarks more broadly, as well as work on cross-modal generative augmentation for biological classification (led by mentee Hyunwoo Yoo, TMLR 2026).
+I build evaluation pipelines for large language models in low-resource domains, including Plutus, a benchmark for Greek-language financial NLP, and MultiFinBen, a multilingual and multimodal benchmark for financial LLMs. This extends to cross-modal generative augmentation for biological classification (led by mentee Hyunwoo Yoo, TMLR 2026), applying similar rigor to evaluating models on scientific and biomedical data.
 </div>
 </div>
 
