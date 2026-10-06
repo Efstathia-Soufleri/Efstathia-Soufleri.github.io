@@ -1,8 +1,8 @@
 ---
 ---
 <article class="publication-entry">
-  <h3 class="publication-title">{% if entry.url %}<a href="{{ entry.url }}">{{ entry.title }}</a>{% else %}{{ entry.title }}{% endif %}</h3>
+  <h3 class="publication-title">{% if entry.url %}<a href="{{ entry.url }}" target="_blank" rel="noopener noreferrer" title="Opens in a new tab">{{ entry.title }}</a>{% else %}{{ entry.title }}{% endif %}</h3>
   <p class="publication-authors">{{ entry.displayauthors | default: entry.author }}</p>
-  <p class="publication-venue">{% if entry.venue %}{{ entry.venue }}{% elsif entry.booktitle %}{{ entry.booktitle }} · {{ entry.year }}{% else %}{{ entry.journal }} · {{ entry.year }}{% endif %}{% if entry.url %} <span aria-hidden="true">·</span> <a href="{{ entry.url }}">Read paper ↗</a>{% endif %}</p>
+  <p class="publication-venue">{% if entry.venue %}{{ entry.venue }}{% elsif entry.booktitle %}{{ entry.booktitle }} · {{ entry.year }}{% else %}{{ entry.journal }} · {{ entry.year }}{% endif %}{% if entry.url %} <span aria-hidden="true">·</span> <a href="{{ entry.url }}" target="_blank" rel="noopener noreferrer" title="Opens in a new tab">Read paper ↗</a>{% endif %}</p>
   {% if entry.longauthors %}<details class="full-authors"><summary>Full author list</summary><p>{{ entry.author | replace: ' and ', '; ' }}</p></details>{% endif %}
 </article>
