@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Research - Efstathia Soufleri</title>
+  <meta name="description" content="Research in memorization, differential privacy, language model evaluation, quantization, and multimodal learning.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Efstathia Soufleri">
+  <meta property="og:title" content="Research - Efstathia Soufleri">
+  <meta property="og:description" content="Research in memorization, differential privacy, language model evaluation, quantization, and multimodal learning.">
+  <meta property="og:url" content="https://efstathia-soufleri.github.io/research/">
+  <meta property="og:image" content="https://efstathia-soufleri.github.io/images/social-preview.png">
+  <meta property="og:image:alt" content="Efstathia Soufleri - Trustworthy and efficient machine learning">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="stylesheet" href="/assets/custom.css?v=20261006-1">
+  <link rel="canonical" href="https://efstathia-soufleri.github.io/research/">
+  <link rel="shortcut icon" type ="image/x-icon" href="https://efstathia-soufleri.github.io/favicon.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+  <link rel="preconnect" href="https://player.vimeo.com">
+  <link rel="preconnect" href="https://i.vimeocdn.com">
+  <link rel="preconnect" href="https://f.vimeocdn.com">
+
+
+
+<!-- Google Analytics (original) -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '');
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','');</script>
+<!-- End Google Tag Manager -->
+
+
+
+</head>
+
+
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id="
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand" href="/">
+     <img src="/favicon.ico" width="30" height="30" style="margin-right:5px" class="d-inline-block align-top" alt="">
+      Efstathia Soufleri
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor02">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+              <a class="nav-link" href="/" >Home</a>
+          </li> 
+          
+           <li class="nav-item">
+            <a class="nav-link" href="/research" aria-current="page">Research</a>
+           </li> 
+          
+           <li class="nav-item">
+            <a class="nav-link" href="/publications" >Publications</a>
+           </li> 
+          
+           <li class="nav-item">
+            <a class="nav-link" href="/about" >About</a>
+           </li> 
+          
+        </ul>
+  </div>
+</nav>
+
+
+
+    <main id="main-content" class="container-fluid">
+      <div class="row">
+        <div id="gridid" class="col-sm-12 col-xs-12">
+  <h1 id="research">Research</h1>
+
+<p>I develop methods to understand, audit, and improve machine learning systems. My work spans <strong>theory and empirical methods</strong>, from training-data memorization and privacy guarantees to evaluation in language, vision, and multimodal applications.</p>
+
+<p><a href="#privacy">Privacy &amp; memorization</a> · <a href="#evaluation">Language model evaluation</a> · <a href="#efficiency">Efficient &amp; multimodal learning</a></p>
+
+<section id="privacy" class="research-theme">
+<h2>Privacy &amp; memorization</h2>
+<p class="lead">What do models remember, and what does that reveal about their training data?</p>
+<p>I study the connections between memorization, generalization, and privacy, and develop efficient methods for estimating memorization and auditing data exposure. I also work on differentially private learning and synthetic data.</p>
+<ul><li><strong>Foundations:</strong> theoretical links between differential privacy, memorization, and input loss curvature (ICML 2024).</li><li><strong>Auditing:</strong> black-box membership inference using input loss curvature (NeurIPS 2024, Spotlight).</li><li><strong>Practical methods:</strong> efficient memorization estimates (ICML 2025; ICLR 2026), private image synthesis (TMLR 2024), and mental-health classification (Frontiers in Digital Health 2025).</li></ul>
+<details><summary>Explore the papers and methods</summary>
+<div>
+      <p>I investigate the relationships between memorization, generalization, differential privacy, and the geometry of a model’s loss around individual samples. In <a href="https://openreview.net/forum?id=4dxR7awO5n" target="_blank" rel="noopener noreferrer" title="Opens in a new tab">Unveiling Privacy, Memorization, and Input Curvature Links</a> (ICML 2024), we establish theoretical connections between these quantities. <a href="https://openreview.net/forum?id=ZEVDMQ6Mu5" target="_blank" rel="noopener noreferrer" title="Opens in a new tab">Curvature Clues</a> (NeurIPS 2024, Spotlight) uses input loss curvature for black-box membership inference, examining whether a sample belonged to a model’s training set.</p>
+
+      <p>Our subsequent work develops efficient, theoretically grounded memorization estimates: <a href="https://openreview.net/forum?id=KZlQEoEtiu" target="_blank" rel="noopener noreferrer" title="Opens in a new tab">Towards Memorization Estimation: Fast, Formal and Free</a> (ICML 2025) and <a href="https://openreview.net/forum?id=jeTiBeW3iZ" target="_blank" rel="noopener noreferrer" title="Opens in a new tab">Memorization Through the Lens of Sample Gradients</a> (ICLR 2026). These methods help make analysis of training-data influence and memorization practical at scale. I also study out-of-distribution detection, including <a href="https://openaccess.thecvf.com/content/CVPR2025W/WiCV/papers/Ravikumar_Improved_Out-of-Distribution_Detection_with_Additive_Angular_Margin_Loss_CVPRW_2025_paper.pdf" target="_blank" rel="noopener noreferrer" title="Opens in a new tab">additive angular margin loss</a> (CVPR Workshops 2025).</p>
+
+      <h3 id="privacy-preserving-learning-and-synthetic-data">Privacy-preserving learning and synthetic data</h3>
+
+      <p>I develop approaches for learning from sensitive data while controlling what models and released datasets reveal. <a href="https://openreview.net/forum?id=KleJZ9ZzYw" target="_blank" rel="noopener noreferrer" title="Opens in a new tab">DP-ImgSyn</a> (TMLR 2024) combines dataset alignment and visual obfuscation with differential privacy for image synthesis.</p>
+
+      <p>In <a href="https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2025.1709671/full" target="_blank" rel="noopener noreferrer" title="Opens in a new tab">DP-CARE</a> (Frontiers in Digital Health 2025), we apply differentially private learning to mental-health classification of social media posts. Together, these projects connect privacy analysis with practical methods for data sharing and model training.</p>
+
+    </div>
+</details>
+</section>
+
+<section id="evaluation" class="research-theme">
+<h2>Language model evaluation</h2>
+<p class="lead">How well do models perform across languages and specialized tasks?</p>
+<p>I contribute to benchmarks and evaluation studies that test language models in financial and healthcare settings, including Greek-language tasks and expert assessment of medical summaries.</p>
+<ul><li><strong>Financial NLP:</strong> Plutus for Greek finance (EMNLP 2025) and MultiFinBen for multilingual, multimodal evaluation (ACL 2026).</li><li><strong>Healthcare:</strong> multimodal stress detection (BioNLP 2025) and psychiatrists’ evaluation of LLM-generated systematic-review summaries (CL4Health 2026).</li></ul>
+<details><summary>Explore the papers and methods</summary>
+<div>
+      <p>I contribute to benchmarks that test language models across languages, modalities, and specialized tasks. <a href="https://aclanthology.org/2025.emnlp-main.1535/" target="_blank" rel="noopener noreferrer" title="Opens in a new tab">Plutus</a> (EMNLP 2025) evaluates financial language understanding in Greek. <a href="https://aclanthology.org/2026.acl-long.770/" target="_blank" rel="noopener noreferrer" title="Opens in a new tab">MultiFinBen</a> (ACL 2026) extends financial evaluation across languages and text, vision, and audio, with tasks of varying difficulty.</p>
+
+      <p>My healthcare NLP work includes <a href="https://aclanthology.org/2025.bionlp-1.4/" target="_blank" rel="noopener noreferrer" title="Opens in a new tab">multimodal stress detection</a> (BioNLP 2025), combining social media text with synthesized visual information, and <a href="https://aclanthology.org/2026.cl4health-1.18/" target="_blank" rel="noopener noreferrer" title="Opens in a new tab">expert evaluation of LLM-generated medical evidence summaries</a> (CL4Health @ LREC 2026). The latter examines whether summaries preserve clinically important information and meet psychiatrists’ criteria for professional acceptability.</p>
+
+    </div>
+</details>
+</section>
+
+<section id="efficiency" class="research-theme">
+<h2>Efficient &amp; multimodal learning</h2>
+<p class="lead">How can models use less computation while learning from richer signals?</p>
+<p>I investigate model compression, hardware-aware learning, and representations that exploit the structure of compressed video. I also study generative augmentation across modalities.</p>
+<ul><li><strong>Model and hardware efficiency:</strong> mixed-precision quantization (IEEE Access 2021) and hybrid RRAM–SRAM computing (DATE 2022).</li><li><strong>Video understanding:</strong> progressive knowledge distillation and unified spatio-temporal representations (WACV 2026).</li><li><strong>Cross-modal learning:</strong> generative augmentation for biological classification (TMLR 2026).</li></ul>
+<details><summary>Explore the papers and methods</summary>
+<div>
+      <p>My work on efficient models spans <a href="https://doi.org/10.1109/ACCESS.2021.3116418" target="_blank" rel="noopener noreferrer" title="Opens in a new tab">mixed-precision quantization</a> (IEEE Access 2021), <a href="https://doi.org/10.23919/DATE54114.2022.9774549" target="_blank" rel="noopener noreferrer" title="Opens in a new tab">hybrid RRAM–SRAM in-memory computing</a> (DATE 2022), and compressed-video understanding. For video, I investigate <a href="https://arxiv.org/abs/2407.02713" target="_blank" rel="noopener noreferrer" title="Opens in a new tab">progressive knowledge distillation</a> and <a href="https://doi.org/10.1109/WACV61042.2026.00462" target="_blank" rel="noopener noreferrer" title="Opens in a new tab">unified spatio-temporal representations</a> (WACV 2026) that exploit motion vectors, residuals, and intra-frames to reduce computation.</p>
+
+      <p>I also work on <a href="https://openreview.net/forum?id=bowYeHa8dn" target="_blank" rel="noopener noreferrer" title="Opens in a new tab">cross-modal generative augmentation for biological classification</a> (TMLR 2026), exploring how information from one modality can support learning in another. My earlier research on <a href="https://doi.org/10.1109/IJCNN.2019.8852181" target="_blank" rel="noopener noreferrer" title="Opens in a new tab">recurrent-network stability</a> (IJCNN 2019) uses eigenvalue spectra to analyze training dynamics.</p>
+
+    </div>
+</details>
+</section>
+
+<p><a href="/publications/">Full publication list</a> · <a href="/cv/cv.pdf">Curriculum vitae</a> · <a href="mailto:efstathia.soufleri27@gmail.com">Discuss research or collaborations</a></p>
+
+<h2 id="implementation-expertise">Implementation expertise</h2>
+
+<p>I build prototypes and evaluation pipelines in Python and PyTorch, with experience in C/C++, Bash, Linux, Docker, and MATLAB. My work includes mixed-precision quantization with up to <strong>6× network-size reduction</strong> on evaluated models, knowledge distillation and early exits for compressed-video recognition, and hardware–software co-design. Results are specific to the experimental settings described in the linked papers.</p>
+
+<p><strong>Code:</strong> <a href="https://github.com/Efstathia-Soufleri/DP-ImgSyn">DP-ImgSyn</a> · <a href="https://github.com/DeepakTatachar/Additive-Angular-Margin-OoD">Additive angular margin out-of-distribution detection</a></p>
+
+</div>
+
+      </div>
+    </main>
+
+    <footer id="footer">
+<div class="container-footer panel-footer" style="padding: 1.5rem; margin-top: 2rem;">
+<p style="margin-bottom: .5rem;"><strong>Efstathia Soufleri</strong> · Trustworthy & efficient machine learning</p>
+<p><a href="mailto:efstathia.soufleri27@gmail.com">Contact</a> · <a href="/cv/cv.pdf">Curriculum vitae</a> · <a href="https://dblp.org/pid/241/5004.html">DBLP</a></p>
+<p style="margin-bottom: 0;">&copy; 2026 Efstathia Soufleri</p>
+</div>
+</footer>
+<script src="/assets/javascript/bootstrap/jquery.min.js"></script>
+<script src="/assets/javascript/bootstrap/bootstrap.bundle.min.js"></script>
+
+
+  </body>
+
+</html>
