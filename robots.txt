@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://efstathia-soufleri.github.io/sitemap.xml

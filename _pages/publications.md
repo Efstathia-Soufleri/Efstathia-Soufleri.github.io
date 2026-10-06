@@ -1,33 +1,28 @@
 ---
 title: "Publications"
 layout: gridlay
-sitemap: false
+sitemap: true
+description: "Peer-reviewed papers and preprints by Efstathia Soufleri, with links to publications and full author lists."
 permalink: /publications/
-years: [ 2022, 2019, 2021]
 ---
 
-<style>
-.jumbotron{
-padding:3%;
-padding-bottom:10px;
-padding-top:10px;
-margin-top:10px;
-margin-bottom:30px;
-}
-</style>
+# Publications
 
+Conference and workshop papers, journal articles, and preprints.
 
-<div class="jumbotron">
-### Conference proceedings
+<a href="#conference-papers">Conference & workshop papers</a> · <a href="#journal-articles">Journal articles</a> · <a href="#preprints">Preprints</a> · [DBLP]({{ site.data.pi[0].dblp }})
+
+## Conference & workshop papers
+{: #conference-papers }
+
 {% bibliography --query @inproceedings %}
-</div>
 
-<div class="jumbotron">
-### Journal articles
+## Journal articles
+{: #journal-articles }
+
 {% bibliography --query @article %}
-</div>
 
-<div class="jumbotron">
-### Preprints
+## Preprints
+{: #preprints }
+
 {% bibliography --query @misc %}
-</div>

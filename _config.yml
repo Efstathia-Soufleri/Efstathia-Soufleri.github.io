@@ -1,9 +1,9 @@
 # Site settings
 title: Efstathia Soufleri
-email: esoufler@alumni.purdue.edu
-description: Academic webpage of Efstathia Soufleri
+email: efstathia.soufleri27@gmail.com
+description: Efstathia Soufleri - machine learning researcher working on privacy, memorization, language model evaluation, and efficient multimodal learning.
 baseurl: ""
-url: ""
+url: "https://efstathia-soufleri.github.io"
 
 # Google analytics ID: Uncomment and your own, if you like
 # google_analytics: XX
@@ -23,14 +23,14 @@ url: ""
 #   West Lafayette, IN 47907, USA
 
 contact: >
-    <a href="mailto:esoufler@alumni.purdue.edu" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Efstathia via email</a> <br/>
+    <a href="mailto:efstathia.soufleri27@gmail.com" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Efstathia via email</a> <br/>
 
 # Pages shown in navbar
 nav_pages:
-  - name: about
-  - name: publications
-  # - name: talks
   - name: research
+  - name: publications
+  - name: about
+  # - name: talks
   # - name: software
   # - name: team
   # - name: teaching
@@ -72,7 +72,7 @@ scholar:
   source: /assets/
   bibliography: ref.bib
   bibliography_template: bibtemplate
-  sort_by: year, month
+  sort_by: year, displayorder, month
   order: descending
 
   replace_strings: true
